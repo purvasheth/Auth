@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* prettier-ignore */
+@layer base {
+  body {
+    @apply m-0 font-body text-gray-500;
+  }
+
+  .btn {
+    @apply py-2.5 px-6 rounded-sm hover:bg-pink-800 focus:bg-pink-800 active:bg-pink-500 active:text-black active:outline-none;
+  }
+
+  input[type="password"] {
+    @apply font-mono text-xl py-1
+  }
+}
